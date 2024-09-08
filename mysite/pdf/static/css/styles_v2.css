@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* List Group */
+.list-group-item {
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+}
+
+.list-group-item h5 {
+    color: #007bff;
+    font-size: 1.25rem;
+}
+
+.list-group-item p {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+.list-group-item small {
+    color: #6c757d;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
